@@ -1,0 +1,250 @@
+/* Code tidied up by ScrapBook */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td { margin: 0px; padding: 0px; font-family: Arial,"寰蒋闆呴粦"; }
+fieldset, img { border: 0px none; }
+img { vertical-align: top; }
+:focus { outline: 0px none; }
+address, caption, cite, code, dfn, em, strong, th, var, optgroup { font-style: normal; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+abbr, acronym { border: 0px none; font-variant: normal; }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
+code, kbd, samp, tt { font-size: 100%; }
+input, button, textarea, select {  }
+ol, ul { list-style: outside none none; }
+table { border-collapse: collapse; border-spacing: 0px; }
+caption, th { text-align: left; }
+sup, sub { font-size: 100%; vertical-align: baseline; }
+a { font-family: Arial,"寰蒋闆呴粦"; }
+a:hover { color: rgb(0, 170, 152); cursor: pointer; text-decoration: underline; }
+a:link, a:visited, ins { text-decoration: none; }
+blockquote, q { quotes: none; }
+blockquote::before, blockquote::after, q::before, q::after { content: none; }
+iframe { margin: 0px; padding: 0px; border: medium none; }
+q::before, q::after { content: ""; }
+li { list-style: outside none none; }
+caption, th { text-align: left; }
+q::before, q::after { content: ""; }
+html { background: rgb(248, 248, 248) none repeat scroll 0% 0%; }
+body { color: rgb(51, 51, 51); font-size: 12px; line-height: 22px; width: 100%; max-width: 640px; margin: auto; text-align: left; background: rgb(255, 255, 255) none repeat scroll 0% 0%; position: relative; }
+a { outline: 0px none; text-decoration: none; color: rgb(51, 51, 51); }
+a:hover { text-decoration: none; color: rgb(255, 51, 0); }
+div { margin: auto; }
+header { width: 100%; height: 50px; line-height: 50px; font-size: 12px; color: rgb(102, 102, 102); background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-bottom: 1px solid rgb(233, 233, 233); }
+header .logo { width: 134px; height: 50px; background: rgba(0, 0, 0, 0) url("logo.jpg") repeat scroll 0% 0%; float: left; }
+header .text { width: 100px; height: 50px; line-height: 50px; font-size: 14px; color: rgb(255, 157, 0); float: right; margin-right: 10px; }
+header .text a { color: rgb(255, 157, 0); font-size: 14px; }
+header .text a:hover { color: rgb(255, 157, 0); font-size: 14px; }
+
+a,img,button,input,textarea,div,span,i{-webkit-tap-highlight-color:rgba(255,255,255,0);}
+
+.clearfix:after{visibility:hidden;display:block;font-size:0;content: " ";clear:both;height:0;}
+.clearfix{*zoom:1;}
+
+.kefuwx{ color:#F60; }
+
+.wrap { position: relative; }
+
+html,body { position: relative; }
+
+.dbtop {
+position: fixed;
+top: 0px;
+width: 100%;
+max-width: 640px;
+padding: 0px;
+z-index: 9999;
+background: #fff;
+height: 60px;
+line-height: 60px;
+font-size: 16px;
+	border-bottom: 1px solid #eee;
+	padding: 5px 30px;
+	box-sizing: border-box;
+}
+.dbtop .wz { width: 100%; height: 100%; }
+.dbtop span {
+text-align: center;
+display: block;
+float: left;
+width: 40%;
+height: 100%;
+}
+.dbtop span:nth-child(1) { background: url(../images/logo.png) no-repeat center; background-size: 100% 100%; }
+.dbtop span:nth-child(2) { float: right; background: url(../images/0yuan.png) no-repeat center; background-size: 100% 100%; }
+
+.calculate { position:fixed; width: 55px; height: 80px; right: 0; top: 320px; z-index: 9996; }
+.calculate span { display: block; width: 100%; height: 100%; background: url(../images/Group.png) no-repeat center; background-size: 100% 100%;}
+
+.unfold-field{
+position:absolute;
+font-size: 0;
+bottom:0; width:100%;
+height:124px;
+z-index: 3;
+}
+.unfold-field .unflod-field_mask {
+height: 78px;
+width: 100%;
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,hsla(0,0%,100%,0)),to(#fff));
+background-image: linear-gradient(-180deg,hsla(0,0%,100%,0),#fff);
+}
+.unfold-field_text{
+cursor: pointer;
+width:100%;
+color: #406599;
+height:46px;
+font-size: 0px;
+line-height: 46px;
+text-align: center;
+background:#fff;
+color: #4A90E2 ;
+}
+.unfold-field_text span{
+display:inline-block;
+font-size: 12px;
+height:35px;
+line-height: 30px;
+padding: 2px 30px;
+border: 1px solid #4A90E2;
+border-radius: 50px;
+box-sizing: border-box;
+}
+.unfold-field_text span::after{
+content:"";
+vertical-align: middle;
+background:url(http://c1.adline.com.cn/static/img/bottom.png);
+background-size: contain;
+background-repeat: no-repeat;
+width: 9px;
+height: 6px;
+display: inline-block;
+margin-left: 5px;
+}
+.unfold-field_text span i{ font-style: normal; }
+
+
+.group-opacity { position: fixed; width: 100%; height: 100%; top: -100%; left: 0; z-index: 999996; transition-duration: 300ms; transition: top 300ms; }
+.group-opacity.on { top: 0; }
+.group-opacity .opacity { position: absolute; width: 100%; height: 100%; background-color: #000000; opacity: 0.4; top: 0; left: 0; right: 0; bottom: 0; z-index: 999997; }
+.group-opacity .img-box { position: absolute; width: 310px; height: 430px; top: 50%; left: 50%; margin-top: -230px; margin-left: -155px; background: url(../images/0yuan_bg.png) no-repeat center; background-size: 100% 100%; z-index: 999998; }
+.group-opacity .img-box .kufu-box { position: relative; width: 170px; height: 170px; margin-top: 130px; }
+.group-opacity .img-box .text { margin-top: 60px; text-align: center; color: #fff; }
+.group-opacity .img-box .text span { letter-spacing: 2px; background-image: linear-gradient(-136deg, #AA6E46 0%, #F1C082 100%);border-radius: 50px; padding: 10px 30px; }
+.group-opacity .img-box .close { display: block; width: 30px; height: 30px; position: relative; bottom: -60px; left: 50%; margin-left: -15px; background: url(../images/close.png) no-repeat center; background-size: 100% 100%; cursor: pointer; }
+
+.calculate-opacity { position: fixed; width: 100%; height: 100%; top: -100%; left: 0; z-index: 999996; transition-duration: 300ms; transition: top 300ms; }
+.calculate-opacity.on { top: 0; }
+.calculate-opacity .opacity { position: absolute; width: 100%; height: 100%; background-color: #000000; opacity: 0.4; top: 0; left: 0; right: 0; bottom: 0; z-index: 999997; }
+.calculate-opacity .img-box { position: absolute; width: 310px; height: 430px; top: 50%; left: 50%; margin-top: -230px; margin-left: -155px; background: #fff; z-index: 999998; border-radius: 12px 12px 12px 12px; }
+.calculate-opacity .img-box .top { font-size: 28px; text-align: center; line-height: 90px; color: #fff; position: relative; width: 100%; height: 90px; background-image: linear-gradient(-136deg, #F1C082 0%, #AA6E46 100%);border-radius: 12px 12px 0 0; }
+.calculate-opacity .img-box .bottom { width: 100%; padding: 0 20px; box-sizing: border-box; }
+.calculate-opacity .img-box .bottom p { margin-top: 30px; font-size: 14px; }
+.calculate-opacity .img-box .bottom p select,
+.calculate-opacity .img-box .bottom p input { width: 195px; height: 29px; line-height: 29px; outline: none; border: 1px solid #979797; border-radius: 4px; box-sizing: border-box;}
+.calculate-opacity .img-box .bottom p input { padding: 0 10px; }
+.calculate-opacity .img-box .bottom p label { color: #8B572A; }
+.calculate-opacity .img-box .bottom p:nth-child(2) select{ width: 75px; }
+.calculate-opacity .img-box .bottom p:nth-last-child(1) { margin-top: 10px; text-align: right; font-size: 10px; color: #9b9b9b;}
+
+.calculate-opacity .img-box .text { margin-top: 50px; text-align: center; color: #fff; }
+.calculate-opacity .img-box .text span { letter-spacing: 2px; background-image: linear-gradient(-136deg, #AA6E46 0%, #F1C082 100%);border-radius: 50px; padding: 10px 30px; }
+.calculate-opacity .img-box .close { display: block; width: 30px; height: 30px; position: relative; bottom: -80px; left: 50%; margin-left: -15px; background: url(../images/close.png) no-repeat center; background-size: 100% 100%; cursor: pointer; }
+
+
+.register-box { padding-top: 50px; }
+.register-box .logo { width: 140px; height: 70px; }
+.register-box .logo img { display: block; width: 100%; height: 100%; }
+.register-box .form { width: 70%; margin: 0 auto; margin-top: 50px; }
+.register-box .form p.text { border-bottom: 1px solid #eee; }
+.register-box .form label { display: block; width: 20%; height: 40px; line-height: 40px; float: left; border: none; height: 40px; font-size: 18px;}
+.register-box .form input { display: block; width: 80%; padding: 0 10px; float: left; border: none;  height: 40px; font-size: 18px; box-sizing: border-box; }
+.register-box .form p.btn { margin-top: 50px; }
+.register-box .form p.btn a{  display: block; width: 100%; height: 50px; text-align: center; line-height: 50px; letter-spacing: 3px; border-radius: 5px; color: #fff; background-color: #4a90e2; font-size: 20px; }
+
+.tiwen { height: auto; padding-top: 70px; overflow: hidden; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.tiwen .lefts { width: 24px; height: 24px; float: left;     background: url(../images/wen.gif) no-repeat;}
+.tiwen .rights { width: 82%;  margin-left: 20px;  height: 100%; overflow: hidden; float: left;  }
+.tiwen .rights .title { width: 100%; overflow: hidden; line-height: 26px; font-size: 20px; color: rgb(85, 85, 85); font-weight: bold; }
+.tiwen .rights .conts { width: 100%; overflow: hidden; font-size: 14px; color: rgb(51, 51, 51); margin-top: 10px; }
+.tiwen .rights .tongj { width: 100%; line-height: 24px; font-size: 14px; margin-top: 10px; }
+.tiwen .rights .diqu { width: 100%; height: 40px; line-height: 40px; overflow: hidden; }
+.tiwen .rights .diqu .biaozhu { float: left; background: rgba(0, 0, 0, 0) url(../images/dibiao.gif) no-repeat scroll left center; height: 40px; font-size: 14px; font-weight: bold; padding-left: 20px; overflow: hidden; }
+.tiwen .rights .diqu .faburen { float: left; line-height: 40px; font-size: 12px; color: rgb(102, 102, 102); margin-left: 10px; }
+.tiwen .rights .diqu .faburen span { width: 40px; height: 40px; float: left; }
+.tiwen .rights .diqu .faburen span img { width: 30px; height: 30px; border-radius: 50%; margin-top: 5px; }
+.huida { width: 100%; height: auto; overflow: hidden; margin-top: 5px; }
+.huida .bt { width: 96%; height: 34px; line-height: 34px; text-align: right; margin-top: 10px; }
+.huida .bt span { width: 60px; height: 34px; background: rgba(0, 0, 0, 0) url("guan.png") no-repeat scroll left center; font-size: 14px; font-weight: bold; padding-left: 30px; float: right; }
+.huida .bt .xingming { float: left; background: rgb(255, 219, 38) none repeat scroll 0% 0%; width: 52px; height: 28px; border-radius: 0px 15px 15px 0px; margin-top: 4px; }
+.huida .bt .xingming .da { width: 20px; height: 28px; float: left; background: rgba(0, 0, 0, 0) url(../images/da.png) no-repeat scroll center center; }
+.huida .bt .xingming img { width: 26px; height: 26px; border-radius: 50%; float: left; margin: 1px 1px 1px 5px; }
+.huida .bt .names { width: auto; line-height: 34px; font-size: 14px; font-weight: bold; float: left; margin-left: 10px; }
+.huida .bt .dengji { width: 40px; height: 14px; line-height: 14px; background-color: rgb(255, 219, 38); border: 1px solid rgb(255, 255, 255); float: left; font-size: 12px; text-align: center; border-radius: 4px; box-shadow: 0px 0px 3px rgb(0, 0, 0); margin-top: 8px; margin-left: 10px; }
+.huida .conts { width: 90%; overflow: hidden; line-height: 1.8; font-size: 14px; color: rgb(102, 102, 102); margin: 2% 5%; }
+.huida .ding { width: 90%; overflow: hidden; height: 40px; line-height: 40px; font-size: 14px; color: rgb(102, 102, 102); margin: 0% 5%; }
+.huida .ding .dianzan { height: 30px; line-height: 30px; overflow: hidden; width: 40%; float: left; }
+.huida .ding .dianzan .icon-thumbs-up-2 { background: rgba(0, 0, 0, 0) url("ding.png") no-repeat scroll left center; padding-left: 30px; display: block; }
+.huida .ding em { font-size: 14px; }
+.huida .ding .pl { width: 25%; height: 30px; line-height: 30px; text-align: center; font-size: 14px; color: rgb(153, 153, 153); float: left; }
+.huida .ding .time { width: 25%; height: 30px; line-height: 30px; text-align: right; font-size: 12px; color: rgb(153, 153, 153); float: left; }
+.huida .pu { width: 96%; height: 34px; line-height: 34px; text-align: right; margin-top: 10px; }
+.huida .pu span { width: 60px; height: 34px; background: rgba(0, 0, 0, 0) url("pu.png") no-repeat scroll left center; font-size: 14px; font-weight: bold; padding-left: 30px; float: right; }
+.huida .pu .xingming { float: left; background: rgb(255, 219, 38) none repeat scroll 0% 0%; width: 52px; height: 28px; border-radius: 0px 15px 15px 0px; margin-top: 4px; }
+.huida .pu .xingming .da { width: 20px; height: 28px; float: left; background: rgba(0, 0, 0, 0) url(../images/da.png) no-repeat scroll center center; }
+.huida .pu .xingming img { width: 26px; height: 26px; border-radius: 50%; float: left; margin: 1px 1px 1px 5px; }
+.huida .pu .names { width: auto; line-height: 34px; font-size: 14px; font-weight: bold; float: left; margin-left: 10px; }
+.huida .pu .dengji { width: 40px; height: 14px; line-height: 14px; background-color: rgb(255, 219, 38); border: 1px solid rgb(255, 255, 255); float: left; font-size: 12px; text-align: center; border-radius: 4px; box-shadow: 0px 0px 3px rgb(0, 0, 0); margin-top: 8px; margin-left: 10px; }
+.huida .plc { width: 90%; height: auto; overflow: auto; margin: auto auto 5px; position: relative; border-bottom: 1px solid rgb(241, 241, 241); }
+.huida .tops { width: 100%; height: 5px; overflow: hidden; }
+.huida .tops .sjx { width: 9px; height: 5px; position: absolute; left: 50%; top: 1px; }
+.huida .cons { width: 99%; height: auto; overflow: auto; border-top: 1px solid rgb(241, 241, 241); border-left: 1px solid rgb(241, 241, 241); border-right: 1px solid rgb(241, 241, 241); }
+.huida .cons .topx { width: 100%; height: 40px; line-height: 40px; font-size: 12px; }
+.huida .cons .topx img { width: 26px; height: 26px; border-radius: 50%; margin: 7px; float: left; }
+.huida .cons .topx span { width: auto; line-height: 40px; float: right; margin-right: 20px; font-size: 12px; color: rgb(153, 153, 153); }
+.huida .cons .topx em { font-size: 12px; color: rgb(255, 157, 0); }
+.huida .cons .conx { width: 90%; line-height: 18px; font-size: 14px; color: rgb(102, 102, 102); margin: auto; padding: 5px 0px; }
+.wenti { width: 96%; height: auto; overflow: hidden; margin-top: 5px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding-bottom: 15px; }
+.wenti .tops { width: 96%; height: 42px; line-height: 42px; font-size: 16px; margin-top: 10px; }
+.wenti .cons { width: 96%; height: auto; line-height: 32px; overflow: hidden; }
+.wenti .cons ul { margin: 0px; padding: 0px; list-style: outside none none; }
+.wenti .cons ul li { height: 32px; line-height: 32px; overflow: hidden; background: rgba(0, 0, 0, 0) url("15.gif") no-repeat scroll left center; padding-left: 6px; }
+.wenti .cons ul li a { font-size: 12px; color: rgb(102, 102, 102); }
+.wenti .cons ul li span { width: auto; height: 32px; line-height: 32px; background: rgba(0, 0, 0, 0) url("16.png") no-repeat scroll left center; float: right; padding-left: 20px; }
+.wenti .cons ul li em { color: rgb(255, 51, 0); }
+.sousuo { width: 100%; height: auto; overflow: hidden; margin-top: 5px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding-bottom: 15px; }
+.sousuo .tops { width: 96%; height: 42px; line-height: 42px; font-size: 16px; margin-top: 10px; }
+.sousuo .cons { width: 96%; height: auto; line-height: 32px; overflow: hidden; }
+.sousuo .cons ul { margin: 0px; padding: 0px; list-style: outside none none; }
+.sousuo .cons ul li { width: 45%; height: 32px; line-height: 32px; overflow: hidden; background: rgba(0, 0, 0, 0) url("15.gif") no-repeat scroll left center; padding-left: 6px; float: left; color: rgb(61, 61, 217); }
+.sousuo .cons ul li a { font-size: 12px; color: rgb(61, 61, 217); }
+.sousuo .cons ul li em { color: rgb(255, 51, 0); }
+.sousuok { width: 100%; height: 60px; margin-top: 10px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.sousuok .ssk { width: 60%; height: 32px; line-height: 32px; border-radius: 5px; border: 1px solid rgb(204, 204, 204); margin-left: 20px; padding: 0px 10px; float: left; margin-right: 10px; margin-top: 12px; }
+.sousuok .tijiao { width: 80px; height: 32px; line-height: 32px; border-radius: 5px; border: 1px solid rgb(49, 126, 243); font-size: 12px; background: rgb(49, 126, 243) none repeat scroll 0% 0%; float: left; color: rgb(255, 255, 255); margin-top: 12px; }
+input[type="button"], input[type="submit"], input[type="reset"] {  }
+textarea {  }
+.footer { width: 100%; height: auto; overflow: hidden; margin-top: 5px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; text-align: center; font-size: 6px; line-height: 18px; padding: 10px 0px; color: rgb(182, 214, 220); }
+.list { width: 96%; height: auto; overflow: hidden; }
+.list ul { margin: 0px; padding: 0px; list-style: outside none none; }
+.list ul li { width: 100%; height: auto; overflow: hidden; margin-top: 10px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.list ul li .title { width: 96%; height: auto; line-height: 30px; font-size: 20px; padding: 10px 0px; }
+.list ul li .title em { color: rgb(255, 51, 0); }
+.list ul li .title span { color: rgb(49, 126, 243); }
+.list ul li .conte { width: 96%; height: 120px; overflow: hidden; }
+.list ul li .conte img { width: 140px; height: 120px; float: left; }
+.list ul li .conte .texts { float: left; width: 55%; margin-left: 10px; line-height: 24px; height: 120px; font-size: 15px; overflow: hidden; }
+.list ul li .time { width: 96%; height: 50px; line-height: 40px; overflow: hidden; }
+.list ul li .time em { color: rgb(153, 153, 153); margin: 0px 15px; }
+.list ul li .time span { color: rgb(153, 153, 153); margin: 0px 15px; }
+#mafengwo { position: fixed; width: 100%; height: 48px; line-height: 48px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-top: 1px solid rgb(241, 241, 241); z-index: 9999; left: 0px; bottom: 0px; }
+#mafengwo .ksk { width: 60%; height: 30px; line-height: 30px; border: 1px solid rgb(243, 147, 8); border-radius: 20px; margin-left: 20px; padding: 0px 10px; float: left; margin-top: 9px; }
+#mafengwo .tijiao { width: 20%; height: 30px; background: rgb(243, 147, 8) none repeat scroll 0% 0%; float: left; border: 0px none; border-radius: 4px; margin-top: 9px; margin-left: 10px; color: rgb(255, 255, 255); }
+input[type="button"], input[type="submit"], input[type="reset"] {  }
+textarea {  }
+.kai {  }
+.guan { display: none; }
+img { max-width: 100%; height: auto; }
+.layui-m-layercont { background-color: rgb(255, 255, 255) !important; }
+.tips, .telto, .cpwechat, .cpphone, .goto { height: 30px; border-bottom: 1px solid rgb(209, 209, 211); text-align: center; font-family: 寰蒋闆呴粦; line-height: 30px; color: rgb(8, 118, 251); padding: 10px 0px; font-size: 14px; }
+.tips { padding-top: 0px; }
+.goto { padding-bottom: 0px; border-bottom: 0px none; }
+.wechat, .phone { color: rgb(255, 0, 0); font-weight: bold; }
