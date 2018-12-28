@@ -728,6 +728,10 @@
 			$(".calculate-opacity").addClass("on");
 		})
 		
+		$(".calculate-opacity .close").on("click",function(){
+			$(".calculate-opacity").removeClass("on");
+		});
+		
 		//开始测算
 		$(".calculate-opacity .text.start").on("click",function(){
 			
